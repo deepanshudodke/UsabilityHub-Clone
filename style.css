@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -131,4 +132,204 @@ a:hover {
 
 .hero-img img {
     width: 600px;
+}
+
+
+/* Company Section */
+
+.company-section {
+    margin-top: 30px;
+}
+
+.company-header {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.company-section-logo {
+    justify-content: space-between;
+}
+
+.company-section-logo img {
+    height: 46px;
+}
+
+
+/* Features */
+
+.features {
+    margin-top: 80px;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feature-card {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header p {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.card-img img {
+    width: 60px;
+}
+
+.card-img h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card-img p {
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+
+/* Big Feature Container */
+
+.big-fea {
+    gap: 90px;
+}
+
+.big-img img {
+    width: 100%;
+}
+
+.big-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.big-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.big-content p {
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+
+/* Examples */
+
+.examples-header {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.examples-header p {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.example-card {
+    width: 23%;
+    border-radius: 5px;
+    position: relative;
+    min-height: 300px;
+    background-color: black;
+    transition: all 0.36s ease;
+}
+
+.example-card:nth-child(1) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(2) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(3) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(4) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+
+.example-card:hover {
+    box-shadow: 0px 0px 15px #888;
+}
+
+.example-card-area {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.example-card h3 {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.main-cta {
+    flex-direction: column;
+    color: white;
+    gap: 50px;
+}
+
+.cta {
+    margin-top: 20px;
+    padding: 100px 20px 80px 20px;
+    background-color: #183b54;
+}
+
+.linkcol {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.linkcol h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.footercontainer {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.subfooter {
+    text-align: center;
+    background-color: #183b56;
+    color: whitesmoke;
+    padding: 10px;
 }
