@@ -269,7 +269,8 @@
             const togglebutton = document.getElementById('nav-toggl');
             const navLinks = document.getElementById('nav-links');
 
-            togglebutton.addEventListener('click', () => {
+            togglebutton.addEventListener('click', (e) => {
+                e.preventDefault();
                 navLinks.classList.toggle('active');
             })
         </script>
